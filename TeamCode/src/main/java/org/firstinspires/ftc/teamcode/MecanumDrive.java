@@ -68,6 +68,7 @@ public final class MecanumDrive {
         public double trackWidthTicks = 0;
 
         // feedforward parameters (in tick units)
+        // TODO Tune kS and kV with tiles using RampLoggers
         public double kS = 0;
         public double kV = 0;
         public double kA = 0.0000001;
